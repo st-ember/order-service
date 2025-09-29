@@ -9,8 +9,8 @@ import (
 	"github.com/go-chi/chi"
 	"github.com/joho/godotenv"
 	"github.com/st-ember/ecommerceprocessor/internal/db"
-	"github.com/st-ember/ecommerceprocessor/internal/processor/redis"
-	"github.com/st-ember/ecommerceprocessor/internal/processor/worker"
+	"github.com/st-ember/ecommerceprocessor/internal/redis"
+	"github.com/st-ember/ecommerceprocessor/internal/worker"
 )
 
 func main() {

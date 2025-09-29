@@ -9,8 +9,8 @@ import (
 	"github.com/st-ember/ecommerceprocessor/internal/cache"
 	"github.com/st-ember/ecommerceprocessor/internal/enum"
 	"github.com/st-ember/ecommerceprocessor/internal/model"
-	"github.com/st-ember/ecommerceprocessor/internal/processor/redis"
-	"github.com/st-ember/ecommerceprocessor/internal/processor/storage"
+	"github.com/st-ember/ecommerceprocessor/internal/redis"
+	"github.com/st-ember/ecommerceprocessor/internal/storage"
 )
 
 var reqKey string = "purchase_request"

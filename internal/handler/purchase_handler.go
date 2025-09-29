@@ -10,9 +10,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/st-ember/ecommerceprocessor/internal/cache"
 	"github.com/st-ember/ecommerceprocessor/internal/enum"
-	"github.com/st-ember/ecommerceprocessor/internal/processor/redis"
-	"github.com/st-ember/ecommerceprocessor/internal/processor/storage"
+	"github.com/st-ember/ecommerceprocessor/internal/redis"
 	"github.com/st-ember/ecommerceprocessor/internal/request"
+	"github.com/st-ember/ecommerceprocessor/internal/storage"
 )
 
 func CreatePurchase(w http.ResponseWriter, r *http.Request) {

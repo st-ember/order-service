@@ -6,5 +6,5 @@ import (
 
 type Purchase struct {
 	Timestamp int64
-	Body request.Purchase
+	Body      request.Purchase
 }

@@ -3,7 +3,7 @@ package api
 import (
 	"github.com/go-chi/chi"
 	chimiddle "github.com/go-chi/chi/middleware"
-	"github.com/st-ember/ecommerceprocessor/internal/processor/handler"
+	"github.com/st-ember/ecommerceprocessor/internal/handler"
 )
 
 func Router(r *chi.Mux) {
